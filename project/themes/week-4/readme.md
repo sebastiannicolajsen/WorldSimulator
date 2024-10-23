@@ -2,7 +2,7 @@
     <img width="250px" src="../../../images/theme-4.png"/>
 </p>
 
-# Økosystemet: Implementering af Valgfrit Dyr (Tema 4)
+# Ecosystem: Implementation of a Chosen Animal (Theme 4)
 
 - [Description](#description)
 - [Included input files](#included-input-files)
