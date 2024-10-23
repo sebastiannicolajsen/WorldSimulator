@@ -1,14 +1,15 @@
 # Primitivt liv: Herbivore og Planter (Tema 1)
 
 <p align="center">
-    <img src="./images/theme-1.png"/>
+    <img src="../images/theme-1.png"/>
 </p>
 
 - [Beskrivelse](#beskrivelse)
 - [Indeholdte input-filer](#indeholdte-input-filer)
 - [Anbefalet fremgangsmåde](#anbefalet-fremgangsmåde)
 - [Rettelser fra biologen](#rettelser-fra-biologen)
- 
+
+
 Dette dokument indeholder en beskrivelse af det første tema for projektet i grundlæggende programmering. Inden du giver dig i kast med opgaverne, er det vigtigt, at du har fået basisprojektet op at køre. Dette beskrives i dokumentet ITU Simulator – beskrivelse af bibliotek.
 
 Dette dokument er opbygget således at 1 beskrivelse giver et indblik I hvad vores ”mini-verden” skal kunne understøtte når temaet er gennemført. 2 Indeholdte input-filer viser de filer, programmet skal kunne indlæse når temaet er gennemført. 3 Kravoversigt giver et overblik over diverse krav, der skal understøttes. 4 Anbefalet fremgangsmåde nedbryder diverse krav og giver et bud på, hvordan I kan angribe temaet fra start til slut. 
