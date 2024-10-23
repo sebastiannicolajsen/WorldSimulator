@@ -1,8 +1,9 @@
-# Primitivt liv: Herbivore og Planter (Tema 1)
-
 <p align="center">
     <img width="250px" src="../../../images/theme-1.png"/>
 </p>
+
+# Primitivt liv: Herbivore og Planter (Tema 1)
+
 
 - [Beskrivelse](#beskrivelse)
 - [Indeholdte input-filer](#indeholdte-input-filer)
@@ -30,7 +31,7 @@ t1-2fg.txt
 t1-3a.txt
 t1-3b.txt
 tf1-1.txt
-'''
+```
 
 Alle input filer har den følgende form:
 
@@ -38,7 +39,7 @@ Alle input filer har den følgende form:
 N
 type antal 
 type min-max
-'''
+``
 
 N angiver størrelsen på verdenen. Type er typen af aktør / element, der skal tilføjes til verdenen, f.eks. en kanin (anføres ’rabbit’). Derefter følger enten ét tal som beskriver præcist antallet der skal tilføjes til verdenen, eller to tal (med en bindestreg imellem) som giver et interval for, hvor mange der skal tilføjes (altså minimum og maksimum). Her bør der tilføjes et tilfældigt antal af typen (imellem intervallet).
 
