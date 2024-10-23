@@ -1,7 +1,7 @@
 # Primitivt liv: Herbivore og Planter (Tema 1)
 
 <p align="center">
-    <img src="../images/theme-1.png"/>
+    <img src="../../../images/theme-1.png"/>
 </p>
 
 - [Beskrivelse](#beskrivelse)
