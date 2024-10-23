@@ -8,14 +8,14 @@ However, due to the length limitations we refer to this document as an attempt t
 
 First you should familiarize yourself with the introductory guide found on the [front page](../) to explore the posibilities of the microworld. If you feel comfortable from here, you can devise your own project surrounding this (we also provide students with this guide as an assignment prior to start).
 
-However, we have created four themes which each are intended to be completable by a group of three in roughly a week (wherein students each spend 15 hours working for an average result). For more information regarding the expected time consumption reach out to us (sebni@itu.dk). For some students, time will be distributed less equally across all weeks, but these are attempts at scaffolding their experience. Below we outline the typical schedule of the project as-is. For more information on our project, please see the [project description and individual themes](../project/readme.md).
+However, we have created four themes which each are intended to be completable by a group of three in roughly a week (wherein students each spend 15 hours working for an average result). For more information regarding the expected time consumption reach out to us (sebni@itu.dk). For some students, time will be distributed less equally across all weeks, but these are attempts at scaffolding their experience. Below we outline the typical schedule of the project as-is. For more information on our project, please see the [project description and individual themes](../project).
 
 ## Current project routine (given in relative weeks to start date)
 
 - Week -1: Students receive the project description and introductory guide on the front page, and are tasked with following the introductory guide and form groups. 
-- Week 0: Group must be finalized, and the students receive the first [theme](../project/themes/week-1/readme.md)
+- Week 0: Group must be finalized, and the students receive the first [theme](../project/themes/week-1)
 - Week 0: Students also have a fixed slot wherein they are able to ask their assigned superviser for support (an assigned TA).
-- Week 1-4: Students at the beginning of each week receive the next theme (theme [2](../project/themes/week-2/readme.md), then [3](../project/themes/week-3/readme.md), then [4](../project/themes/week-4/readme.md)...) before which they must submit their weekly project diary as described in the [project description](../project/project-description.md) which they then receive feedback upon at the next supervision.
+- Week 1-4: Students at the beginning of each week receive the next theme (theme [2](../project/themes/week-2), then [3](../project/themes/week-3), then [4](../project/themes/week-4)...) before which they must submit their weekly project diary as described in the [project description](../project/project-description.md) which they then receive feedback upon at the next supervision.
 
 
 Thus, every week consists of 1) students handing in a project diary used as input for their supervision that week (how is it going, any issues, what to do next), 2) handout of a new weekly theme. How exactly this should be structured depends on TA availability and lecture hours, i.e., if the introduction week (wherein one should also give an introduction lecture) does not happen until Friday, perhaps one should offset these activities.
