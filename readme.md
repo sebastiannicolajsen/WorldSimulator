@@ -2,6 +2,11 @@
 
 This file provides an introductory guide to using the library in which you will build a small mini-simulation. Before that, it makes sense to familiarize yourself with the accompanying Java documentation, which can be found [here](https://github.itu.dk/pages/GRPRO-PROJECT/grpro-project/index.html). There are several reasons why we use this library. First and foremost, so you can practice using (and learn to understand) libraries you haven't used before.
 
+<p align="center">
+    <img src="./images/gif.gif"/>
+</p>
+
+
 The example above initially shows two rabbits and a wolf. The example code is described [here](./documentation/gif-example.md).
 
 ## Table of Contents
