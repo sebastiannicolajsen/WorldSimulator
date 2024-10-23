@@ -1,5 +1,4 @@
-# Grundlæggende Programmering 
-## Projekt 2023: Mini-verdener
+# Projekt 2023: Mini-verdener
 
 Dette dokument beskriver projektet for Grundlæggende Programmering (GRPRO) 2023. 
 (Det er delvist baseret på tidligere versioner af Anders Clausen.)
@@ -7,23 +6,23 @@ Dette dokument beskriver projektet for Grundlæggende Programmering (GRPRO) 2023
 - [Indholdsfortegnelse](#indholds-fortegnelse)
 - [Formål](#formål)
 - [Projektbeskrivelse](#projektbeskrivelse)
-- [Krav](#krav)
-- [Projektbeskrivelse](#projektbeskrivelse)
+    - [Krav](#krav)
+    - [Projektbeskrivelse](#projektbeskrivelse)
 - [Regler](#regler)
-- [Aflevering](#aflevering)
-- [Grupper](#grupper)
-- [Programmeringssprog](#programmeringssprog)
-- [Video demo](#video-demo)
-- [Rapport](#rapport)
-- [Snyd](#snyd)
+    - [Aflevering](#aflevering)
+    - [Grupper](#grupper)
+    - [Programmeringssprog](#programmeringssprog)
+    - [Video demo](#video-demo)
+    - [Rapport](#rapport)
+    - [Snyd](#snyd)
 - [Projektmaterialer](#projektmaterialer)
 - [Gode råd](#gode-råd)
-- [Divide and Conquer](#divide-and-conquer)
-- [Start simpelt](#start-simpelt)
-- [Behandl ikke rapporten som en eftertanke](#behandl-ikke-rapportne-som-en-eftertanke)
-- [Behandl ikke tests som en eftertanke](#behandl-ikke-tests-som-en-eftertanke)
-- [Test inkrementelt](#test-inkrementelt)
-- [Inden afleveringen](#inden-afleveringen)
+    - [Divide and Conquer](#divide-and-conquer)
+    - [Start simpelt](#start-simpelt)
+    - [Behandl ikke rapporten som en eftertanke](#behandl-ikke-rapportne-som-en-eftertanke)
+    - [Behandl ikke tests som en eftertanke](#behandl-ikke-tests-som-en-eftertanke)
+    - [Test inkrementelt](#test-inkrementelt)
+    - [Inden afleveringen](#inden-afleveringen)
 
 
 
@@ -85,10 +84,10 @@ S4)	program (en mappe der indeholder al jeres kode, billeder, biblioteket. Sørg
 ## Grupper
 Grupperne (af en størrelse på tre  studerende per gruppe) dannes som udgangspunkt af jer selv og skal være dannet før projektstart (Se undervisningsgang 21 og 22). Er der udfordringer i forhold til grupper bedes I henvende jer til Sebastian <sebni@itu.dk>.
 
-Programmeringsprog
+## Programmeringsprog
 Systemet skal udvikles i Java og anvende det udleverede bibliotek. I må gerne benytte et andet udviklingsmiljø end BlueJ (fx IntelliJ), men det er jeres ansvar at vide hvordan det bruges . Vi udleverer projektet til både BlueJ, IntelliJ, samt VSCode.
 
-Video demo
+## Video demo
 Video demoen skal som udgangspunkt vise at jeres program kører evt. med forskellige input filer. I er velkomne til at snakke ind over og ”præsentere” jeres løsning hvis I mener der er noget som er relevant at fortælle. Videoen må maksimalt være 5 minutter, hvilket bør være rigeligt tid til at vise det. Det er ikke meningen at I her skal introducere koden eller lignende.
 
 
@@ -107,9 +106,9 @@ I må ikke benytte andres tekst, illustrationer eller programkode uden udtrykkel
 # Projektmaterialer
 I forbindelse med projektet får I udleveret følgende materiale:
 
-- **M1**)	Denne projektbeskrivelse (this dokument).
-- **M2**)	”Udformning af rapporten” (dokument).
-- **M3**)	”ITUmulator” – beskrivelse af bibliotek (dokument) samt java dokumentationen.
+- **M1**)	Denne projektbeskrivelse.
+- **M2**)	”Udformning af rapporten”.
+- **M3**)	"WorldSimulator” – beskrivelse af bibliotek  samt java dokumentationen.
 - **M4**)	Basisprojektet (med projektbibliotek).
 - **M5**)	Temaer for de fire uger (de er tilgængelige fra hver søndag), som indeholder både input-filer og en beskrivelse af temaet samt tilhørende krav (dokument).
 
@@ -165,6 +164,8 @@ Inden aflevering bør I sikre at alle krav, som er beskrevet i dette dokument, o
 I kan også tage udgangspunkt I denne tjekliste:
 
 ## Projektrapport
+Brug eventuelt følgende som checkliste når du skriver rapporten:
+
 -	[  ] En velskrevet rapport i .pdf-format.
 -	[  ] Der er en logisk sammenhæng mellem overskrifter i alle afsnit.
 -	[  ] Der bliver ikke blandet mange forskellige emner sammen i de enkelte afsnit (her kan underafsnit bruges).
