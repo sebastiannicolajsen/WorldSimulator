@@ -3,114 +3,69 @@ Here's the translation of the Danish text into English, retaining the formatting
 # Mini-worlds
 
 - [Table of Contents](#table-of-contents)
-
 - [Purpose](#purpose)
-
 - [Project Description](#project-description)
-
-- [Requirements](#requirements)
-
-- [Project Description](#project-description)
-
+    - [Requirements](#requirements)
+    - [Project Description](#project-description)
 - [Rules](#rules)
-
-- [Submission](#submission)
-
-- [Groups](#groups)
-
-- [Programming Language](#programming-language)
-
-- [Video Demo](#video-demo)
-
-- [Report](#report)
-
-- [Cheating](#cheating)
-
+    - [Submission](#submission)
+    - [Groups](#groups)
+    - [Programming Language](#programming-language)
+    - [Video Demo](#video-demo)
+    - [Report](#report)
+    - [Cheating](#cheating)
 - [Project Materials](#project-materials)
-
 - [Good Advice](#good-advice)
-
-- [Divide and Conquer](#divide-and-conquer)
-
-- [Start Simple](#start-simple)
-
-- [Don't Treat the Report as an Afterthought](#dont-treat-the-report-as-an-afterthought)
-
-- [Don't Treat Tests as an Afterthought](#dont-treat-tests-as-an-afterthought)
-
-- [Test Incrementally](#test-incrementally)
-
-- [Before Submission](#before-submission)
+    - [Divide and Conquer](#divide-and-conquer)
+    - [Start Simple](#start-simple)
+    - [Don't Treat the Report as an Afterthought](#dont-treat-the-report-as-an-afterthought)
+    - [Don't Treat Tests as an Afterthought](#dont-treat-tests-as-an-afterthought)
+    - [Test Incrementally](#test-incrementally)
+    - [Before Submission](#before-submission)
 
 # Purpose
-
 In this project, you will implement a simulation of life. Each week, you will be introduced to a new theme with corresponding requirements and input files, which build upon your previous solution by constructing new elements for the simulation and modifying existing parts.
-
 The project consists of analyzing the requirements specification (domain analysis) and then designing and implementing a program that can simulate different forms of life and their interaction as described in various requirements and input files. In your solution, you should use basic Java constructs such as classes, methods, interfaces, abstract classes, loops, Collections, etc. Your implementation should be documented using Java's documentation facilities. You should also argue for the correctness of your program through systematic testing.
-
 You must prepare a report in which you present and argue for your design and implementation choices, as well as explain whether the program works as expected, and assess to what extent your testing of the program supports this conclusion.
-
 The project involves overall development, testing, and documentation of a Java program, as well as two academic reports describing your considerations, choices, and decisions.
 
 # Project Description
-
 This project involves simulating a "mini-world" consisting of animals, plants, and other actors. Each week focuses on a new theme that continuously builds on the interaction between the different types of actors that exist in our "mini-world". The simulation uses our project library (ITUmulator), which is described below and in the separate file ITU Simulator - Library Description. By using this library, you will, over the coming weeks, build a visual simulation where you will be able to see the different actors living their best lives, competing for food, and evolving through the simulation. You could say it's a whole life cycle.
 
 The themes are as follows:
-
 - Week 1: Primitive life: Herbivores and Plants
-
 - Week 2: Food chains: Predators, herd animals, and territories
-
 - Week 3: Decomposition: The Fungal Kingdom
-
 - Week 4: Implementation of optional animal
 
 For each theme, there is a description of the requirements that the solution must support. For each theme, there will also be some associated input files that you must load and use to populate different simulations. You can also write more input files yourself. You will have the opportunity to determine how the different actors are displayed in the simulation. Here we refer again to the file describing the project library.
 
 ## Requirements
-
 The requirements for your system are that it must:
+- **R1**) Meet the individual requirements set out in each theme's description. However, the requirements are formulated as being open, and it is therefore up to you as a group to determine exactly what they mean and how you interpret them. You support that you meet the requirements through your tests (as taught in the course).
+- **R2**) Ensure that your implementation is documented using Java documentation.
+- **R3**) Be able to load an input file from any theme and still function correctly.
+- **R4**) Have a modular design that makes it easy to add new extensions (we build this gradually throughout the different themes).
+- **R5**) The submitted project can be compiled and run on other computers.
 
-R1) Meet the individual requirements set out in each theme's description. However, the requirements are formulated as being open, and it is therefore up to you as a group to determine exactly what they mean and how you interpret them. You support that you meet the requirements through your tests (as taught in the course).
-
-R2) Ensure that your implementation is documented using Java documentation.
-
-R3) Be able to load an input file from any theme and still function correctly.
-
-R4) Have a modular design that makes it easy to add new extensions (we build this gradually throughout the different themes).
-
-R5) The submitted project can be compiled and run on other computers.
-
-Project Library (ITU Simulator)
+## Project Library
 
 The project includes a Java library, which has accompanying Java documentation and is commented. This library has three purposes:
-
-P1) It can visualize our program via Java Swing (see the video lecture on Swing if you're curious about how to build user interfaces).
-
-P2) It exposes the functionality to run a simulation.
-
-P3) It exposes the abstraction of a 'map' which will be the foundation for our system.
-
+- **P1**) It can visualize our program via Java Swing (see the video lecture on Swing if you're curious about how to build user interfaces).
+- **P2**) It exposes the functionality to run a simulation.
+- **P3**) It exposes the abstraction of a 'map' which will be the foundation for our system.
 It is not expected that you understand all the code in this library, only enough to be able to interact programmatically with the map and use the simulation. To learn how to get started with this, see the accompanying file ITU Simulator - Library Description. This library should not be edited during the project.
 
-3 Rules
-
-Submission
-
+# Rules
+## Submission
 The assignment will be reviewed at the lecture on 23/11, and the reports, code, and video demo must be submitted no later than 21/12 at 14:00 through LearnIT (under exam submission & groups).
-
 It is your responsibility to submit on time. If you submit late, you cannot take the exam! There is no flexibility from ITU's side, and it's not something we - as teachers - can do anything about.
-
 You should therefore make sure to review and upload reports and code files, etc. in good time to ensure correct and timely submission. When submitting on LearnIT, you need to click 'next' several times to confirm that you are submitting your exam project (until you have received a confirmation email). Do not start the submission at 13:58.
-
 When submitting the project, please create a zip file with the following structure and naming:
+- **S1**) [groupname-projectreport.pdf]
+- **S2**) [groupname-projectdiary.pdf]
 
-S1) [groupname-projectreport.pdf]
-
-S2) [groupname-projectdiary.pdf]
-
-S3) [groupname-demo] (Any video format that can be played on Mac and Windows or a link to the video demo)
+- **S3**) [groupname-demo] (Any video format that can be played on Mac and Windows or a link to the video demo)
 
 S4) program (a folder containing all your code, images, library. Make sure it compiles)
 
