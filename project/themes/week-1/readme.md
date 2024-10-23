@@ -94,4 +94,5 @@ After this, you can start implementing and testing the various parts. By tests, 
 
 # Corrections from the biologist
 **[1]** In practice, this is not symbiosis. When talking about herbivores, it would not be symbiosis or mutualism, unless the rabbits, for example, fart out the seeds from the grass somewhere else (which they don't really do). Symbiosis describes one or more species that are unable to live without the other.
+
 **[2]** In practice, you probably wouldn't call them holes, but rather a 'nest'.
