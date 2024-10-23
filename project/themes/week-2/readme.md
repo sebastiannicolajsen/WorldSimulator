@@ -1,17 +1,17 @@
 <p align="center">
-    <img width="250px" src="../../../images/theme-1.png"/>
+    <img width="250px" src="../../../images/theme-2.png"/>
 </p>
 
 # Fødekæder: Prædatorer, flokdyr, og territorier (Tema 2)
 
 - [Description](#description)
 - [Included input files](#included-input-files)
+- [Requirements overview](#requirements-overview)
 - [Recommended approach](#recommended-approach)
 - [Corrections from the biologist](#corrections-from-the-biologist)
 
-This document contains a description of the first theme for the project in basic programming. Before you start with the tasks, it's important that you have the base project up and running. This is described in the document ITU Simulator – description of library.
-
-This document is structured so that
+This document contains a description of the second theme of the project.
+This document is structured so that:
 - **description** gives an insight into what our "mini-world" should be able to support when the theme is completed.
 - **Included input files** shows the files the program should be able to load when the theme is completed.
 - **Requirements** overview gives an overview of various requirements that need to be supported.
@@ -44,26 +44,26 @@ Bear 1 (3,5)
 Bear 5
 ```
 
-# Requirements
+# Requirements overview
 Når følgende krav er opfyldt, er tema 2 gennemført. Ligesom i sidste uges temabeskrivelse, har alle krav og input filer har et ID for at hjælpe på vej. I denne uge er kravene ikke kategoriseret på samme måde som tema 1. Det anbefales således at du udfører en endnu mere stringent objekt-orienteret analyse til at starte med (se afsnit 4). I denne uge er kravene ikke sorteret således at det nødvendigvis giver mening at implementere de første først (nogle af disse kan være svære). Dan jer derfor et samlet overblik til at starte med. Udover de obligatoriske krav, følger frivillige krav nederst i kravoversigten.
 
--	K2-1a. Ulve kan placeres på kortet når input filerne beskriver dette.
--	K2-1b. Ulve kan dø, hvilket resulterer I at de fjernes fra verdenen.
--	K2-1c. Ulve jager andre dyr og spiser dem for at opnå energi. 
--	K2-2a. Ulve er et flokdyr. De søger konstant mod andre ulve i flokken. Når inputfilen beskriver (på en enkelt linje) at der skal placeres flere ulve, bør disse automatisk være i samme flok.
--	K2-3a. Ulve og deres flok, tilhører en ulvehule, det er også her de formerer sig. Ulve ’bygger’ selv deres huler. Møder en ulv en ulv fra en anden flok, kæmper de mod hinanden. 
--	K2-4a. Bjørne kan placeres på kortet når input filerne beskriver dette. 
--	K2-4b. Bjørne jager ligesom ulve, og spiser også alt **[3]**. 
--	K2-5a. Bjørnen er meget territoriel, og har som udgangspunkt ikke et bestemt sted den ’bor’. Den knytter sig derimod til et bestemt område og bevæger sig sjældent ud herfra. Dette territories centrum bestemmes ud fra bjørnens startplacering på kortet.
--	K2-6a. Dertil spiser bjørne også bær fra buske (såsom blåbær og hindbær) når de gror i området. Bær er en god ekstra form for næring for bjørnen (om end det ikke giver samme mængde energi som når de spiser kød), men som det er med buske går der tid før bær gror tilbage. 
+-	**K2-1a**. Ulve kan placeres på kortet når input filerne beskriver dette.
+-	**K2-1b**. Ulve kan dø, hvilket resulterer I at de fjernes fra verdenen.
+-	**K2-1c**. Ulve jager andre dyr og spiser dem for at opnå energi. 
+-	**K2-2a**. Ulve er et flokdyr. De søger konstant mod andre ulve i flokken. Når inputfilen beskriver (på en enkelt linje) at der skal placeres flere ulve, bør disse automatisk være i samme flok.
+-	**K2-3a**. Ulve og deres flok, tilhører en ulvehule, det er også her de formerer sig. Ulve ’bygger’ selv deres huler. Møder en ulv en ulv fra en anden flok, kæmper de mod hinanden. 
+-	**K2-4a**. Bjørne kan placeres på kortet når input filerne beskriver dette. 
+-	**K2-4b**. Bjørne jager ligesom ulve, og spiser også alt **[3]**. 
+-	**K2-5a**. Bjørnen er meget territoriel, og har som udgangspunkt ikke et bestemt sted den ’bor’. Den knytter sig derimod til et bestemt område og bevæger sig sjældent ud herfra. Dette territories centrum bestemmes ud fra bjørnens startplacering på kortet.
+-	**K2-6a**. Dertil spiser bjørne også bær fra buske (såsom blåbær og hindbær) når de gror i området. Bær er en god ekstra form for næring for bjørnen (om end det ikke giver samme mængde energi som når de spiser kød), men som det er med buske går der tid før bær gror tilbage. 
 
 
 ## Frivillige, ikke obligatoriske, krav.
 
--	KF2-1 Hvis den ene ulv bliver voldsomt såret, underkaster den sig den sejrende ulvs flok **[4]**. En såret ulv har brug for hvile før den kan fortsætte.
--	KF2-2 Dog er bjørnen ikke et flokdyr **[5]**, og mødes kun med andre bjørne når de skal parre sig. Bjørnen kan også dø og fjernes her fra verdenen.
--	KF2-3. Bjørne der ikke er klar til at parre sig, angriber andre bjørne der bevæger sig ind på deres områder. Tilsvarende angriber de andre dyr.
--	KF2-4. Bjørnen er naturligvis vores øverste rovdyr i denne lille fødekæde, men det hænder at en stor nok gruppe ulve kan angribe (og dræbe) en bjørn. Dette vil i praksis være hvis flere ulve af samme flok er i nærheden af en bjørn. 
+-	**KF2-1**. Hvis den ene ulv bliver voldsomt såret, underkaster den sig den sejrende ulvs flok **[4]**. En såret ulv har brug for hvile før den kan fortsætte.
+-	**KF2-2**. Dog er bjørnen ikke et flokdyr **[5]**, og mødes kun med andre bjørne når de skal parre sig. Bjørnen kan også dø og fjernes her fra verdenen.
+-	**KF2-3**. Bjørne der ikke er klar til at parre sig, angriber andre bjørne der bevæger sig ind på deres områder. Tilsvarende angriber de andre dyr.
+-	**KF2-4**. Bjørnen er naturligvis vores øverste rovdyr i denne lille fødekæde, men det hænder at en stor nok gruppe ulve kan angribe (og dræbe) en bjørn. Dette vil i praksis være hvis flere ulve af samme flok er i nærheden af en bjørn. 
 
 # Recommended approach
 Det anbefales at denne uge også startes med en objekt-orienteret analyse ved at kigge på teksten, input filernes indhold, samt de forskellige krav. Således står I med et overblik over hvad der skal tilføjes. Denne gang fremhæver vi dog at der mange muligheder for at indtænke abstrakte klasser, interfaces, og hjælpeklasser som kan tillade jer at genbruge eksisterende kode, f.eks. kunne man forestille sig, at I tidligere har implementeret kode der giver jer en placering der er tættere på et mål (når man vil bevæge sig fra A til B). Denne kode skal nok anvendes igen og kan derfor rykkes ud som en statisk funktion i en hjælpeklasse. Dertil kunne man forestille sig at de aktører der nu skal implementeres indeholder funktionalitet der er ens for alle dyr I senere vil implementere – hvordan kunne i konkret genbruge denne kode? Således er det første I bør gøre, at refaktorisere jeres kode inden i udvikler de nye tilføjelser. Overvejelserne omkring refaktoriseringen gør sig også godt i ugens dagbog. Det kan her også give mening at revurdere tidligere tests. Er der nogle der skal laves om? Skal der laves flere?

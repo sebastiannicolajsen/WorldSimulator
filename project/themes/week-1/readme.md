@@ -6,6 +6,7 @@
 - [Description](#description)
 - [Included input files](#included-input-files)
 - [Recommended approach](#recommended-approach)
+- [Requirements overview](#requirements-overview)
 - [Corrections from the biologist](#corrections-from-the-biologist)
 
 This document contains a description of the first theme for the project in basic programming. Before you start with the tasks, it's important that you have the base project up and running. This is described in the document ITU Simulator – description of library.
@@ -51,25 +52,25 @@ We recommend putting the various input files in the 'data' folder in the provide
 When the following requirements are met, theme 1 is completed. All requirements and input files have an ID to help guide you. Thus, for example, you can advantageously use the input files t1-2cde when solving requirements K1-2c, K1-2d, and K1-2e, i.e. when the number after the hyphen is the same. In the first theme, the requirements are grouped by topics. This will not necessarily be the case later. In addition to the mandatory requirements, optional requirements follow at the bottom of the requirements overview.
 
 ## Grass
-- K1-1a. Grass can be planted when the input files describe this. Grass should just be randomly placed.
-- K1-1b. Grass can spread.
-- K1-1c. Animals can stand on grass without anything happening to the grass (Here the NonBlocking interface can be utilized).
+- **K1-1a**. Grass can be planted when the input files describe this. Grass should just be randomly placed.
+- **K1-1b**. Grass can spread.
+- **K1-1c**. Animals can stand on grass without anything happening to the grass (Here the NonBlocking interface can be utilized).
 
 ## Rabbits
-- K1-2a. Rabbits can be placed on the map when the input files describe this. Rabbits should just be randomly placed.
-- K1-2b. Rabbits can die, which results in them being removed from the world.
-- K1-2c. Rabbits live on grass which they eat during the day, without food a rabbit dies.
-- K1-2d. Rabbits' age determines how much energy they have.
-- K1-2e. Rabbits can reproduce.
-- K1-2f. Rabbits can dig holes, or share existing holes with other rabbits. Rabbits can only be linked to one hole.
-- K1-2g. Rabbits seek towards their holes when evening comes, where they sleep **[2]**. It is not a requirement that rabbits reach their holes.
+- **K1-2a**. Rabbits can be placed on the map when the input files describe this. Rabbits should just be randomly placed.
+- **K1-2b**. Rabbits can die, which results in them being removed from the world.
+- **K1-2c**. Rabbits live on grass which they eat during the day, without food a rabbit dies.
+- **K1-2d**. Rabbits' age determines how much energy they have.
+- **K1-2e**. Rabbits can reproduce.
+- **K1-2f**. Rabbits can dig holes, or share existing holes with other rabbits. Rabbits can only be linked to one hole.
+- **K1-2g**. Rabbits seek towards their holes when evening comes, where they sleep **[2]**. It is not a requirement that rabbits reach their holes.
 
 ## Rabbit holes
-- K1-3a. Holes can either be inserted when the input files describe this, or dug by rabbits. Holes are randomly placed when they are included in an input file.
-- K1-3b. Animals can stand on a rabbit hole without anything happening.
+- **K1-3a**. Holes can either be inserted when the input files describe this, or dug by rabbits. Holes are randomly placed when they are included in an input file.
+- **K1-3b**. Animals can stand on a rabbit hole without anything happening.
 
 ## Optional, not mandatory, requirements.
-- KF1-1. Holes always consist of at least one entrance, however there can be multiple entrances that together form one rabbit tunnel. Rabbits can only dig new exits while they are in their holes.
+- **KF1-1**. Holes always consist of at least one entrance, however there can be multiple entrances that together form one rabbit tunnel. Rabbits can only dig new exits while they are in their holes.
 
 # Recommended approach
 
