@@ -64,25 +64,19 @@ You should therefore make sure to review and upload reports and code files, etc.
 When submitting the project, please create a zip file with the following structure and naming:
 - **S1**) [groupname-projectreport.pdf]
 - **S2**) [groupname-projectdiary.pdf]
-
 - **S3**) [groupname-demo] (Any video format that can be played on Mac and Windows or a link to the video demo)
-
-S4) program (a folder containing all your code, images, library. Make sure it compiles)
+- **S4**) program (a folder containing all your code, images, library. Make sure it compiles)
 
 ## Groups
-
 The groups (of a size of three students per group) are formed by you as a starting point and must be formed before the project start (See teaching sessions 21 and 22). If there are challenges regarding groups, please contact Sebastian.
 
 ## Programming Language
-
 The system must be developed in Java and use the provided library. You may use a development environment other than BlueJ (e.g., IntelliJ), but it is your responsibility to know how to use it. We provide the project for both BlueJ, IntelliJ, and VSCode.
 
 ## Video Demo
-
 The video demo should basically show that your program runs, possibly with different input files. You are welcome to talk over and "present" your solution if you think there is something relevant to tell. The video may be a maximum of 5 minutes, which should be ample time to show it. It is not intended that you introduce the code or similar here.
 
 ## Report
-
 In the project, you are expected to prepare two reports: The project report and the project diary. The project report has a scope of maximum 6 standard pages (excl. Figures, front page, and table of contents). The project diary has a maximum scope of 8 standard pages. A page is 2400 characters including spaces. You can get more help with both reports in the document Formulation of the Report. It is also expected that your program is documented using Java documentation.
 
 Both the project report and the project diary are written collectively in the group. The latest version of the project diary should be sent to your TA no later than the Sunday before the next guidance session.
@@ -92,43 +86,27 @@ The report must be written in either Danish or English.
 The front page must meet ITU's requirements for an exam report (https://itustudent.itu.dk/Study-Administration/Exams/Submitting-written-work).
 
 ## Cheating
-
 You may not use others' text, illustrations, or program code without explicit source citation. Plagiarism can result in exclusion from the exam (and potentially expulsion from the university)!
 
 # Project Materials
-
 In connection with the project, you will receive the following material:
-
 - **M1**) This project description.
-
 - **M2**) "Formulation of the report".
-
 - **M3**) "WorldSimulator" – description of library and Java documentation.
-
 - **M4**) Base project (with project library).
-
 - **M5**) Themes for the four weeks (they are available from each Sunday), which contain both input files and a description of the theme and associated requirements (document).
 
 # Evaluation
-
 The main emphasis in the evaluation is placed on the project report. The purpose of the report is to make explicit the decisions you make along the way, and to show that you can reflect on different possibilities in relation to both design and implementation of a larger program. It is thus important that you justify your design choices and assess the degree of completion of the product. (The code is of course a necessary prerequisite for the project report.)
-
 The following sections must be in the project report:
-
 - **A1**) "Introduction" containing a specification and delimitation of what your system supports based on the requirements set by the individual themes.
-
 - **A2**) "Design" containing justified design decisions in the solution domain regarding the system (classes, interfaces, etc. and relationships between these). This includes your entire system from data loading to the simulation is complete. You should not describe the accompanying library.
-
 - **A3**) "Testing" containing a brief discussion of whether the system meets the established requirements, and to what degree. It is important to argue why you think this based on your testing (if you have actually done this). This refers to unit tests.
-
 - **A4**) "Conclusion" containing a brief summary of the three above sections.
-
 In addition, you must submit a project diary that contains a new main section for each of the four themes. This should be submitted to the TA who guides you (the Sunday before the next guidance session) for each week. The sections in the project diary are thus written along the way.
 
 - **D1**) "Summary" containing a specification and delimitation of what the system supports after the individual week.
-
 - **D2**) "Design" containing a description and argumentation for the most important design decisions you have made and implemented. This can be both new additions to the system (which may also affect earlier parts of the program) or modifications of parts of the program from before.
-
 - **D3**) "Testing" containing a description of how you have approached testing of your system this week, and to what extent you have tested. This refers to unit tests.
 
 The sections you write in the project diary for each theme should be used as an active reflection tool in the design process. You should see the sections for each theme as being a kind of 'diary' of your decisions and assessment of your own system which also helps your TA to gain insight into how it's going. It's important that these documents do not describe code-level decisions; you should use Java documentation for that. Thus, it doesn't make sense in the reports to describe, for example, the if-statements individual methods contain, etc.
