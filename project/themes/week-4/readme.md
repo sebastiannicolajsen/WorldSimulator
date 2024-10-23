@@ -17,21 +17,23 @@ This document is structured so that:
 - **Recommended approach** breaks down various requirements and suggests how you can approach the theme from start to finish.
 
 # Description
-Hvert dyr spiller en unik rolle i sit økosystem. Denne uges opgave er at vælge et dyr og implementere det i vores miniverden. Dette indebærer, at forstå dyrets behov, adfærd, og hvordan det interagerer med andre elementer i vores økosystem. 
-# Included input files
-Der er denne uge ingen medfølgende input-filer. Det er derfor jeres opgave at lave disse (hvis nødvendigt) ifl. med den nedenstående krav specifikation.
-# Requirements overview
-Når følgende krav er opfyldt, er tema 4 gennemført. Denne uge har ikke inputfiler til at hjælpe jer, i skal her selv skabe jeres egne som passer til jeres valgte dyr. Det anbefales således at I udfører en endnu mere stringent objekt-orienteret analyse til at starte med (se afsnit 4): 
+Each animal plays a unique role in its ecosystem. This week's task is to choose an animal and implement it in our mini-world. This involves understanding the animal's needs, behavior, and how it interacts with other elements in our ecosystem.
 
--	**K4-1**. Vælg et valgfrit ”dyr” og implementer dets karakteristika og adfærd i økosystemet. Dyret skal have mindst et unikt adfærd. Et dyr kan også være et fiktivt dyr (så længe du beskriver dette).
--	**K4-2**. Dyret skal kunne interagere med eksisterende elementer i økosystemet, herunder ådsler, planter og andre dyr.
--	**K4-3**. Simuler dyrets livscyklus, herunder fødsel, vækst, reproduktion og død.
--	**K4-4**. Implementer dyrets fødekæde og prædator-bytte forhold.
--	**K4-5**. Dyrets tilstedeværelse og adfærd skal kunne påvirke økosystemets balance og dynamik.
+# Included input files
+There are no accompanying input files this week. It is therefore your task to create these (if necessary) in accordance with the following requirement specification.
+
+# Requirements overview
+When the following requirements are met, theme 4 is completed. This week, there are no input files to help you; you must create your own that fit your chosen animal. It is therefore recommended that you perform an even more stringent object-oriented analysis to start with (see section 4):
+
+- **K4-1**. Choose any "animal" and implement its characteristics and behavior in the ecosystem. The animal must have at least one unique behavior. An animal can also be a fictional animal (as long as you describe it).
+- **K4-2**. The animal must be able to interact with existing elements in the ecosystem, including carcasses, plants, and other animals.
+- **K4-3**. Simulate the animal's life cycle, including birth, growth, reproduction, and death.
+- **K4-4**. Implement the animal's food chain and predator-prey relationships.
+- **K4-5**. The animal's presence and behavior must be able to affect the balance and dynamics of the ecosystem.
 
 # Recommended approach
-Det anbefales at denne uge startes med en dybdegående analyse af det valgte dyrs biologi og økologi. Gennemgå de eksisterende elementer i økosystemet og overvej, hvordan dyret vil interagere med disse. Overvej genbrug af eksisterende kode, hvor det er muligt, og implementer nye funktioner og adfærdsregler for det valgte dyr. Sørg for at dokumentere og teste dyrets integration i økosystemet grundigt.
+It is recommended to start this week with an in-depth analysis of the chosen animal's biology and ecology. Review the existing elements in the ecosystem and consider how the animal will interact with these. Consider reusing existing code where possible and implement new functions and behavior rules for the chosen animal. Ensure that you document and test the animal's integration into the ecosystem thoroughly.
 
-Denne uges krav er endnu mere åbne end tidligere, og der er derfor en ekstra stor opgave I at fortolke på dem, og klargøre (i dagbogen) hvad I har fortolket og hvorfor skriv gerne også hvilke krav i har forbundet med jeres dyr. Da kravene er mere åbne, er det også sværere at vurdere hvilke tests I bør skrive. Sørg derfor for, at overveje dette og at teste bredt. Med tests menes der unit tests som det er blevet undervist i kurset.
+This week's requirements are even more open than before, and there is therefore an extra large task for you to interpret them and clarify (in the diary) what you have interpreted and why. Also, write about which requirements you have associated with your animal. Since the requirements are more open, it is also more difficult to assess which tests you should write. Therefore, make sure to consider this and test broadly. By tests, we mean unit tests as taught in the course.
 
-Dertil skal I huske at dette er den sidste uge, og at I her skal aflevere det samlede projekt, inklusivt en overordnet rapport. 
+Additionally, remember that this is the last week, and you must submit the complete project, including an overall report.

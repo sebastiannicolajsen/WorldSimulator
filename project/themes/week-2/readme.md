@@ -2,7 +2,7 @@
     <img width="250px" src="../../../images/theme-2.png"/>
 </p>
 
-# Fødekæder: Prædatorer, flokdyr, og territorier (Tema 2)
+# Food Chains: Predators, Pack Animals, and Territories (Theme 2)
 
 - [Description](#description)
 - [Included input files](#included-input-files)
@@ -17,10 +17,10 @@ This document is structured so that:
 - **Requirements** overview gives an overview of various requirements that need to be supported.
 - **Recommended approach** breaks down various requirements and suggests how you can approach the theme from start to finish.
 
-# Description
-Naturen bliver denne uge endnu vildere – og mindre idyllisk. Med tilføjelsen af ulve og bjørne har de små kaniner pludseligt to naturlige fjender **[1]**. Det skaber naturligvis en usikkerhed for de små kaniner, men grundet både bjørne og ulves territorielle instinkter, jager og kæmper disse også mod hinanden **[2]**, og andre af deres egen art. Vores lille verden har udviklet sig til en sand kamp om overlevelse; fastholder bjørnene deres territorier? hvilke ulveflokke overlever? Hvilke grupper forgår? 
+### Description
+Nature is becoming even wilder and less idyllic this week. With the addition of wolves and bears, the small rabbits suddenly have two natural enemies **[1]**. This naturally creates uncertainty for the small rabbits, but due to both bears' and wolves' territorial instincts, these animals also hunt and fight each other **[2]**, and other members of their own species. Our little world has developed into a real struggle for survival; do the bears maintain their territories? Which wolf packs survive? Which groups perish?
 
-# Included input files
+### Included input files
 ```
 t2-1ab.txt
 t2-1c.txt
@@ -34,56 +34,46 @@ t2-7a.txt
 tf2-1.txt
 tf2-2.txt
 ```
-
-Note omkring bjørne i inputfilen: Når bjørne bliver nævnt i inputfilen har de udover de attributter nævnt i uge 1 har de et (x,y) koordinat som angiver centrummet af deres territorium, når det undlades, skal der blot vælges et tilfældigt koordinat (Dette er typisk hvis der skal tilføres flere bjørne), se følgende eksempel:
+Note about bears in the input file: When bears are mentioned in the input file, they have, in addition to the attributes mentioned in week 1, an (x, y) coordinate indicating the center of their territory. If this is omitted, a random coordinate should be chosen (this is typically if more bears need to be added). See the following example:
 
 ```
-N
-Rabbit 10
-Bear 1 (3,5)  
+N Rabbit 10
+Bear 1 (3,5)
 Bear 5
 ```
 
-# Requirements overview
-Når følgende krav er opfyldt, er tema 2 gennemført. Ligesom i sidste uges temabeskrivelse, har alle krav og input filer har et ID for at hjælpe på vej. I denne uge er kravene ikke kategoriseret på samme måde som tema 1. Det anbefales således at du udfører en endnu mere stringent objekt-orienteret analyse til at starte med (se afsnit 4). I denne uge er kravene ikke sorteret således at det nødvendigvis giver mening at implementere de første først (nogle af disse kan være svære). Dan jer derfor et samlet overblik til at starte med. Udover de obligatoriske krav, følger frivillige krav nederst i kravoversigten.
+### Requirements overview
+When the following requirements are met, theme 2 is completed. Like last week's theme description, all requirements and input files have an ID to help guide you. This week, the requirements are not categorized in the same way as theme 1. It is therefore recommended that you perform an even more stringent object-oriented analysis to start with (see section 4). This week, the requirements are not sorted in a way that necessarily makes sense to implement the first ones first (some of these can be difficult). Therefore, create a comprehensive overview to start with. In addition to the mandatory requirements, voluntary requirements follow at the bottom of the requirements overview.
 
--	**K2-1a**. Ulve kan placeres på kortet når input filerne beskriver dette.
--	**K2-1b**. Ulve kan dø, hvilket resulterer I at de fjernes fra verdenen.
--	**K2-1c**. Ulve jager andre dyr og spiser dem for at opnå energi. 
--	**K2-2a**. Ulve er et flokdyr. De søger konstant mod andre ulve i flokken. Når inputfilen beskriver (på en enkelt linje) at der skal placeres flere ulve, bør disse automatisk være i samme flok.
--	**K2-3a**. Ulve og deres flok, tilhører en ulvehule, det er også her de formerer sig. Ulve ’bygger’ selv deres huler. Møder en ulv en ulv fra en anden flok, kæmper de mod hinanden. 
--	**K2-4a**. Bjørne kan placeres på kortet når input filerne beskriver dette. 
--	**K2-4b**. Bjørne jager ligesom ulve, og spiser også alt **[3]**. 
--	**K2-5a**. Bjørnen er meget territoriel, og har som udgangspunkt ikke et bestemt sted den ’bor’. Den knytter sig derimod til et bestemt område og bevæger sig sjældent ud herfra. Dette territories centrum bestemmes ud fra bjørnens startplacering på kortet.
--	**K2-6a**. Dertil spiser bjørne også bær fra buske (såsom blåbær og hindbær) når de gror i området. Bær er en god ekstra form for næring for bjørnen (om end det ikke giver samme mængde energi som når de spiser kød), men som det er med buske går der tid før bær gror tilbage. 
+- **K2-1a**. Wolves can be placed on the map when the input files describe this.
+- **K2-1b**. Wolves can die, resulting in their removal from the world.
+- **K2-1c**. Wolves hunt other animals and eat them to gain energy.
+- **K2-2a**. Wolves are pack animals. They constantly seek out other wolves in their pack. When the input file describes (on a single line) that multiple wolves should be placed, these should automatically be in the same pack.
+- **K2-3a**. Wolves and their pack belong to a wolf den, which is also where they reproduce. Wolves 'build' their own dens. If a wolf meets a wolf from another pack, they fight each other.
+- **K2-4a**. Bears can be placed on the map when the input files describe this.
+- **K2-4b**. Bears, like wolves, hunt and eat everything **[3]**.
+- **K2-5a**. Bears are very territorial and do not have a specific place they 'live'. Instead, they attach themselves to a specific area and rarely move out of it. The center of this territory is determined by the bear's starting position on the map.
+- **K2-6a**. Bears also eat berries from bushes (such as blueberries and raspberries) when they grow in the area. Berries are a good extra source of nutrition for the bear (although they do not provide the same amount of energy as eating meat), but like bushes, it takes time for the berries to grow back.
 
+### Voluntary, non-mandatory requirements
+- **KF2-1**. If one wolf is severely injured, it submits to the winning wolf's pack **[4]**. An injured wolf needs rest before it can continue.
+- **KF2-2**. However, bears are not pack animals **[5]** and only meet other bears when they are to mate. Bears can also die and be removed from the world.
+- **KF2-3**. Bears that are not ready to mate attack other bears that move into their area. Similarly, they attack other animals.
+- **KF2-4**. Bears are naturally our top predators in this small food chain, but it happens that a large enough group of wolves can attack (and kill) a bear. This will in practice be if several wolves from the same pack are near a bear.
 
-## Frivillige, ikke obligatoriske, krav.
+### Recommended approach
+It is recommended to start this week with an object-oriented analysis by looking at the text, the content of the input files, and the various requirements. This way, you have an overview of what needs to be added. This time, however, we emphasize that there are many opportunities to think about abstract classes, interfaces, and helper classes that can allow you to reuse existing code. For example, you might imagine that you previously implemented code that gives you a placement closer to a target (when you want to move from A to B). This code will likely be used again and can therefore be moved out as a static function in a helper class. Similarly, you might imagine that the actors now to be implemented contain functionality that is the same for all animals you will later implement – how could you concretely reuse this code? Therefore, the first thing you should do is refactor your code before developing the new additions. The considerations regarding refactoring also make sense in this week's diary. It may also make sense to re-evaluate previous tests. Are there any that need to be changed? Should more be made? Many of the requirements this week are more difficult to specify exactly what they mean. It is your task to interpret them and clarify (in the diary) what you have interpreted and why. After that, you can start refactoring the existing code and implementing and testing the new parts. In the course, we mean unit tests as taught. Test continuously as you implement. Here, you can again look at the good advice in the project description if they are too overwhelming to start with. You may subsequently need to investigate further what is available in the World class. Maybe there are things you did not use last week that could be good to use this week.
 
--	**KF2-1**. Hvis den ene ulv bliver voldsomt såret, underkaster den sig den sejrende ulvs flok **[4]**. En såret ulv har brug for hvile før den kan fortsætte.
--	**KF2-2**. Dog er bjørnen ikke et flokdyr **[5]**, og mødes kun med andre bjørne når de skal parre sig. Bjørnen kan også dø og fjernes her fra verdenen.
--	**KF2-3**. Bjørne der ikke er klar til at parre sig, angriber andre bjørne der bevæger sig ind på deres områder. Tilsvarende angriber de andre dyr.
--	**KF2-4**. Bjørnen er naturligvis vores øverste rovdyr i denne lille fødekæde, men det hænder at en stor nok gruppe ulve kan angribe (og dræbe) en bjørn. Dette vil i praksis være hvis flere ulve af samme flok er i nærheden af en bjørn. 
+### Corrections from the biologist
+**[1]** In the simulation, these are the natural enemies. In the real world rabbits are often too small for it to be worth it for something like a bear to eat them. Foxes, for example, would be a more "natural" enemy for bears.
 
-# Recommended approach
-Det anbefales at denne uge også startes med en objekt-orienteret analyse ved at kigge på teksten, input filernes indhold, samt de forskellige krav. Således står I med et overblik over hvad der skal tilføjes. Denne gang fremhæver vi dog at der mange muligheder for at indtænke abstrakte klasser, interfaces, og hjælpeklasser som kan tillade jer at genbruge eksisterende kode, f.eks. kunne man forestille sig, at I tidligere har implementeret kode der giver jer en placering der er tættere på et mål (når man vil bevæge sig fra A til B). Denne kode skal nok anvendes igen og kan derfor rykkes ud som en statisk funktion i en hjælpeklasse. Dertil kunne man forestille sig at de aktører der nu skal implementeres indeholder funktionalitet der er ens for alle dyr I senere vil implementere – hvordan kunne i konkret genbruge denne kode? Således er det første I bør gøre, at refaktorisere jeres kode inden i udvikler de nye tilføjelser. Overvejelserne omkring refaktoriseringen gør sig også godt i ugens dagbog. Det kan her også give mening at revurdere tidligere tests. Er der nogle der skal laves om? Skal der laves flere?
+**[2]** Such animals would usually avoid each other; it would not pay off for any of them to risk their lives by attacking another top predator. This is something we 'play' with.
 
-Flere af kravene er denne uge sværere at specificere hvad de præcist betyder. Det er her jeres opgave at fortolke på dem, og klargøre (i dagbogen) hvad I har fortolket og hvorfor.
+**[3]** A biologist would probably describe it as something a bit different from hunting; a bear typically lives on 73% plants, 22% insects, and 5% animals (shows a study of black bears).
 
-Herefter kan I kaste jer ud i at refaktorisere den eksisterende kode og implementere og teste de nye dele. I kurset mener vi unit tests ligesom der er blevet undervist i. Test løbende mens der implementeres. Her kan man igen kigge mod de gode råd i projektbeskrivelsen hvis de er for uoverskuelige til at starte med. 
+**[4]** The fact that wolves switch to a new pack sometimes occurs in nature. Most often, groups will primarily avoid each other. In cases where a fight occurs, the "defeated males" will most often die if they do not manage to escape. The same applies to wandering males.
 
-Det kan være du efterfølgende skal undersøge yderligere hvad der er tilgængeligt i World klassen. Måske er der ting I ikke brugte sidste uge, som kunne være gode at anvende denne uge.
+**[5]** In periods of food abundance, small groups of bears can form; "Bears are solitary by nature, except when in family groups of mothers and cubs or in pairs during the mating season. Bears may congregate in areas of high food density, such as oak stands, berry patches, or farm fields.”
 
-# Corrections from the biologist
-
-**[1]** i simuleringen er de naturlige fjender. Kaniner er oftest for små til det kan betale sig for noget som en bjørn at spise dem. Ræve f.eks ville være en mere "naturlig" fjende for kaniner.
-
-**[2]** Oftest ville sådanne dyr undgå hinanden; Det kan ikke betale sig for nogen af dem at satse livet på at angribe et andet top-rovdyr. Det er derfor noget vi ’leger’.
-
-**[3]** En biolog ville nok beskrive det som noget lidt andet en jagt, en bjørn lever typisk af 73% planter, 22% insekter, og 5% dyr (viser en undersøgelse af sort bjørn).
-
-**[4]** Det at ulve overgår til en ny flok sker til tider i naturen. Langt oftest vil grupper primært undgå hinanden. I tilfælde hvor kamp opstår vil de "besejrede hanner" langt oftest dø hvis ikke de når at flygte. Det samme gælder for strejfende hanner.
-
-**[5]** ved overflod af mad i perioder kan der dannes smågrupper af bjørne; ”Bears are solitary by nature, except when in family groups of mothers and cubs or in pairs during the mating season. Bears may congregate in areas of high food density, such as oak stands, berry patches, or farm fields.”
 
 
