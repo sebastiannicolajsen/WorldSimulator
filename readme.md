@@ -233,6 +233,3 @@ It may be possible due other requirements implemented that above test doesn't ho
 Note that above test example uses setCurrentLocation—if you're unclear why that's done read section 4! 
 
 It’s incredibly useful performing such tests regularly since they allow us assessing whether individual actors behave as expected under specific circumstances—it may become difficult (or impossible) evaluating behavior without them!
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/38298961/81f06112-9638-4d53-b6bc-ca3005b2c14e/readme.md
