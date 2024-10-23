@@ -39,7 +39,7 @@ Alle input filer har den følgende form:
 N
 type antal 
 type min-max
-``
+```
 
 N angiver størrelsen på verdenen. Type er typen af aktør / element, der skal tilføjes til verdenen, f.eks. en kanin (anføres ’rabbit’). Derefter følger enten ét tal som beskriver præcist antallet der skal tilføjes til verdenen, eller to tal (med en bindestreg imellem) som giver et interval for, hvor mange der skal tilføjes (altså minimum og maksimum). Her bør der tilføjes et tilfældigt antal af typen (imellem intervallet).
 
