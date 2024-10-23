@@ -13,6 +13,6 @@ However, we have created four themes which each are intended to be completable b
 ## Current project routine (given in relative weeks to start date)
 
 - Week -1: Students receive the project description and introductory guide on the front page, and are tasked with following the introductory guide and form groups.
-- Week 0: Group must be finalized, and the students receive the first [theme](./themes/week-1)
+- Week 0: Group must be finalized, and the students receive the first [theme](../project/themes/week-1/)
 
 
