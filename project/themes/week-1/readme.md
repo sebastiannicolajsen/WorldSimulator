@@ -74,7 +74,7 @@ When the following requirements are met, theme 1 is completed. All requirements 
 
 # Recommended approach
 
-Before you start with the tasks, it's important that you have the base project up and running. This is described in the document ITU Simulator – description of library.
+Before you start with the tasks, it's important that you have the base project up and running. This is described in the document which describes the library.
 
 After that, it's very important that you get an overview of the methods belonging to the World class. Specifically, it's important to know and understand: *delete*, *remove*, *getSurroundingTiles*, *getSurroundingEmptyTiles*, *isNight*, *isDay*, *move*, *containsNonBlocking*, *isTileEmpty* and *setTile*. Additionally, you should understand how the *NonBlocking* interface works.
 

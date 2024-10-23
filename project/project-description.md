@@ -1,6 +1,9 @@
-Here's the translation of the Danish text into English, retaining the formatting:
+<p align="center">
+    <img src="../images/theme-all.png"/>
+</p>
 
-# Mini-worlds
+
+# Circle of Life project
 
 - [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
