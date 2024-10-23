@@ -18,7 +18,7 @@ This document is structured so that
 
 # Description
 
-Nature is a wild place in many ways. There are many different kinds of animals living in many different habitats – some are barren, others are fertile and flourish with grass and plants. In the first theme, we focus on the sweet and simple; green grass and fresh rabbits. In our little world, plants and rabbits live in harmony; the rabbits eat a little grass here and there, have lots of cute offspring. At the same time, grass thrives symbiotically1 in this small limited world. The rabbits enjoy freely digging holes and tunnels that spread across our little square patch. A quiet and calm cycle, where there is peace at night, for then the rabbits sleep in their small holes and tunnels; but who knows where they'll peek out the next morning?
+Nature is a wild place in many ways. There are many different kinds of animals living in many different habitats – some are barren, others are fertile and flourish with grass and plants. In the first theme, we focus on the sweet and simple; green grass and fresh rabbits. In our little world, plants and rabbits live in harmony; the rabbits eat a little grass here and there, have lots of cute offspring. At the same time, grass thrives symbiotically in this small limited world **[1]**. The rabbits enjoy freely digging holes and tunnels that spread across our little square patch. A quiet and calm cycle, where there is peace at night, for then the rabbits sleep in their small holes and tunnels; but who knows where they'll peek out the next morning?
 
 # Included input files
 
@@ -38,7 +38,8 @@ tf1-1.txt
 All input files have the following form:
 
 ```
-N type number type min-max
+N type number 
+type min-max
 ```
 
 N indicates the size of the world. Type is the type of actor / element to be added to the world, e.g. a rabbit (denoted 'rabbit'). Then follows either one number describing exactly how many should be added to the world, or two numbers (with a hyphen in between) giving an interval for how many should be added (i.e. minimum and maximum). Here, a random number of the type should be added (between the interval).
@@ -61,7 +62,7 @@ When the following requirements are met, theme 1 is completed. All requirements 
 - K1-2d. Rabbits' age determines how much energy they have.
 - K1-2e. Rabbits can reproduce.
 - K1-2f. Rabbits can dig holes, or share existing holes with other rabbits. Rabbits can only be linked to one hole.
-- K1-2g. Rabbits seek towards their holes when evening comes, where they sleep. It is not a requirement that rabbits reach their holes.
+- K1-2g. Rabbits seek towards their holes when evening comes, where they sleep **[2]**. It is not a requirement that rabbits reach their holes.
 
 ## Rabbit holes
 - K1-3a. Holes can either be inserted when the input files describe this, or dug by rabbits. Holes are randomly placed when they are included in an input file.
@@ -74,11 +75,11 @@ When the following requirements are met, theme 1 is completed. All requirements 
 
 Before you start with the tasks, it's important that you have the base project up and running. This is described in the document ITU Simulator – description of library.
 
-After that, it's very important that you get an overview of the methods belonging to the World class. Specifically, it's important to know and understand: delete, remove, getSurroundingTiles, getSurroundingEmptyTiles, isNight, isDay, move, containsNonBlocking, isTileEmpty and setTile. Additionally, you should understand how the NonBlocking interface works.
+After that, it's very important that you get an overview of the methods belonging to the World class. Specifically, it's important to know and understand: *delete*, *remove*, *getSurroundingTiles*, *getSurroundingEmptyTiles*, *isNight*, *isDay*, *move*, *containsNonBlocking*, *isTileEmpty* and *setTile*. Additionally, you should understand how the *NonBlocking* interface works.
 
 After this, we recommend that you read the good advice in the project description. This advice is always good to follow regardless of where in the process you are.
 
-Next, it is recommended that you perform an object-oriented (OO) analysis as seen in teaching session 19. Here you can advantageously start with 0 description, 1 Included input files (the actual file content), and 2 requirements overview. By looking at the text, the content of the input files, and the various requirements, you can get an overview of which components need to be built, and what functionality they should have. Here you can also start to consider potential relationships between classes (e.g. the need for abstract classes, interfaces, helper classes with static functions, etc.). These would be good elements in the diary part about the theme.
+Next, it is recommended that you perform an object-oriented (OO) analysis as seen in teaching session 19. Here you can advantageously start with *description*, *Included input files* (the actual file content), and *requirements overview*. By looking at the text, the content of the input files, and the various requirements, you can get an overview of which components need to be built, and what functionality they should have. Here you can also start to consider potential relationships between classes (e.g. the need for abstract classes, interfaces, helper classes with static functions, etc.). These would be good elements in the diary part about the theme.
 
 As stated in the project description, not all requirements describe exactly how something should be implemented. It's up to you as a group to determine this. For example, should a rabbit be able to eat grass when it's standing next to it, or on top of it? Remember to document your choices, possibly with comments, and if you feel the choices are very central, this could also be relevant in the first section of the diary or under design choices.
 
@@ -91,8 +92,5 @@ Additionally, you can consider; are there any requirements that don't make parti
 After this, you can start implementing and testing the various parts. By tests, we refer to the form of tests the course teaches (unit tests). Test while you implement. The requirements are sorted (for each group of requirements) so that the first requirements are those you should start implementing and testing. However, there will be requirements that require you to have implemented parts of other requirement "groups". Here you can again look towards the good advice in the project description, if they are too overwhelming to start with.
 
 # Corrections from the biologist
-1 In practice, this is not symbiosis. When talking about herbivores, it would not be symbiosis or mutualism, unless the rabbits, for example, fart out the seeds from the grass somewhere else (which they don't really do). Symbiosis describes one or more species that are unable to live without the other.
-2 In practice, you probably wouldn't call them holes, but rather a 'nest'.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/38298961/90a3f96c-1e54-47c9-9a73-abbff6b948a0/readme.md
+**[1]** In practice, this is not symbiosis. When talking about herbivores, it would not be symbiosis or mutualism, unless the rabbits, for example, fart out the seeds from the grass somewhere else (which they don't really do). Symbiosis describes one or more species that are unable to live without the other.
+**[2]** In practice, you probably wouldn't call them holes, but rather a 'nest'.
