@@ -1,6 +1,6 @@
 # WorldSimulator (Some components still labelled ITUmulator)
 
-*All files in this repository has been machine translated from its original and may therefore contain errors (originally in Danish).*
+*All files in this repository has been machine translated from its original and may therefore contain errors (originally in Danish). Further, the majority of the formatting is lost due to the markdown format of github.*
 
 If you are a teacher looking to adapt the project in parts or its entirety, please check the markdown file [here](./teachers/readme.md).
 The source code for the library can be found [here](./src/) and its documentation online [here](https://sebastiannicolajsen.github.io/WorldSimulator/) or as files [here](./documentation/). The project description and related themes as executed the first time can be found [here](./project/).
