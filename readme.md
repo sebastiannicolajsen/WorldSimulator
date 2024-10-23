@@ -1,6 +1,14 @@
-# ITUmulator (Or, simply, WorldSimulator)
+# WorldSimulator (Some components still labelled ITUmulator)
 
-This file provides an introductory guide to using the library in which you will build a small mini-simulation. Before that, it makes sense to familiarize yourself with the accompanying Java documentation, which can be found [here](https://github.itu.dk/pages/GRPRO-PROJECT/grpro-project/index.html). There are several reasons why we use this library. First and foremost, so you can practice using (and learn to understand) libraries you haven't used before.
+*All files in this repository has been machine translated from its original and may therefore contain errors (originally in Danish).*
+
+If you are a teacher looking to adapt the project in parts or its entirety, please check the markdown file [here](./teachers/readme.md).
+The source code for the library can be found [here](./src/) and its documentation online [here](https://sebastiannicolajsen.github.io/WorldSimulator/) or as files [here](./documentation/). The project description and related themes as executed the first time can be found [here](./project/).
+
+
+# Introduction guide
+
+This file provides an introductory guide to using the library in which you will build a small mini-simulation. Before that, it makes sense to familiarize yourself with the accompanying Java documentation, which can be found [here](https://sebastiannicolajsen.github.io/WorldSimulator/). There are several reasons why we use this library. First and foremost, so you can practice using (and learn to understand) libraries you haven't used before.
 
 <p align="center">
     <img src="./images/gif.gif"/>
